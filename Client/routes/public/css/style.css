@@ -1,0 +1,24 @@
+/* 
+Name: Thiri Lae Win
+Class: DIT/1B/10
+Admin No: 2340739 */
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the width as needed */
+    grid-auto-rows: auto;
+    column-gap: 30px;
+    row-gap: 40px;
+
+}
+
+.card {
+    border: 1px solid #ccc; /* Border styles */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    background-color: #f9f9f9; /* Background color */
+}
+
+
+
+  

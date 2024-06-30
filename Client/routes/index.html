@@ -1,0 +1,48 @@
+<!--
+Name: Thiri Lae Win
+Class: DIT/1B/10
+Admin No: 2340739 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDB Data</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="./public/js/script.js" type="module"></script>
+    <script src="./public/js/fetchData.js" type="module"></script>
+    <script src="./public/js/templates.js" type="module"></script>
+</head>
+
+<body style="background-color: beige;">
+    <center style="font-family: Garamond, serif;">
+        <h1 style="padding: 20px;">HDB Data</h1>
+
+        <div id="selectTown">
+            <h2>Select a town:</h2>
+            <select id="townSelect"></select>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+
+        <div class="row" style="padding-left: 20px; padding-right: 20px; padding-bottom: 15px;">
+            <div class="col">
+                <div id="priceCards" class="card-container"></div>
+            </div>
+            <div class="col">
+                <div id="priceMeanMedianCards" class="card-container"></div>
+            </div>
+            <div class="col">
+                <div id="detailsCards" class="card-container"></div>
+            </div>
+        </div>
+    </center>
+
+
+
+</body>
+
+</html>
